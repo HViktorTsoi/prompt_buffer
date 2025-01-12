@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 600px;
+      padding: 3px;
+    }
+    #textbox {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 5px;
+      resize: vertical;
+      font-size: large;
+    }
+    .button-container {
+      display: flex;
+      gap: 10px;
+    }
+    .minor {
+      padding: 8px 16px;
+      background-color: #AAAAAA;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .major {
+      padding: 8px 16px;
+      background-color: #266351;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #pasteBtn {
+        width: 85%;
+    }
+    button.major:hover {
+      background-color: #469391;
+    }
+    button.minor:hover {
+      background-color: #777777;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="textbox" placeholder="输入文本..."></textarea>
+  <div class="button-container">
+    <button class="minor" id="saveBtn">Buffer</button>
+    <button class="major" id="pasteBtn">Feed Prompt</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
