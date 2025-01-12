@@ -1,13 +1,13 @@
 # Prompt Buffer
 
-A Chrome extension that helps you quickly input pre-saved prompts into ChatGPT's (or other tools') dialogue box. Say goodbye to repetitive copying and pasting, and enhance your ChatGPT workflow efficiency.
+A Chrome extension that helps you quickly input pre-saved prompts into Poe's dialogue box. Say goodbye to repetitive copying and pasting, and enhance your Poe workflow efficiency.
 
 <!-- ## Features
 
-- 🚀 Quick storage and retrieval of frequently used ChatGPT prompts
+- 🚀 Quick storage and retrieval of frequently used Poe prompts
 - 📝 Support for saving and managing prompts
 - 🖱️ Right-click menu for quick paste functionality
-- 💡 Smart recognition of ChatGPT input field
+- 💡 Smart recognition of Poe input field
 - 🎯 One-click filling without copy-paste -->
 
 ## Installation Guide
@@ -34,15 +34,15 @@ cd prompt_buffer
 ### Basic Usage
 
 1. Click the extension icon
-2. Enter your frequently used ChatGPT prompts in the popup text box
+2. Enter your frequently used Poe prompts in the popup text box
 3. Click the `Buffer` button to store your prompts
 
-### Using with ChatGPT
+### Using with Poe
 
-1. Go to [ChatGPT website](https://chat.openai.com/)
+1. Go to [Poe website](https://poe.com/)
 2. Method 1: Click the extension icon, then click "Feed Prompt"
 3. Method 2: Right-click the extension icon and select "Feed Prompt"
-4. Your pre-saved prompt will automatically fill into ChatGPT's input field
+4. Your pre-saved prompt will automatically fill into Poe's input field
 
 
 ## License
