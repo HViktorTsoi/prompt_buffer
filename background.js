@@ -2,7 +2,7 @@
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
       id: "pasteStoredText",
-      title: "Insert Prompt",
+      title: "Feed Prompt",
       contexts: ["action"]  // 这表示只在扩展图标的右键菜单中显示
     });
   });
