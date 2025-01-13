@@ -34,6 +34,8 @@ chrome.runtime.onInstalled.addListener(() => {
   
   // 粘贴文本的函数
   function pasteText(text) {
+    // 补充换行
+    text += '\n\n';
     const activeElement = document.activeElement;
     
     // 检查当前焦点元素是否是可输入的元素
@@ -55,6 +57,9 @@ chrome.runtime.onInstalled.addListener(() => {
     if (textareas.length > 0) {
       textareas[0].value = text;
       textareas[0].dispatchEvent(new Event('input', { bubbles: true }));
+      // 模拟键盘输入事件，触发poe的输入
+      document.getElementsByTagName('textarea')[0].dispatchEvent(new Event('input', { bubbles: true }));
+
       return;
     }
     
